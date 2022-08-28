@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div>
         <NavBar />
-        <News />
+        <News pageSize={6} country="in" category="technology" />
       </div>
     );
   }
