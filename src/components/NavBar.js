@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export class NavBar extends Component {
   render() {
@@ -6,9 +7,9 @@ export class NavBar extends Component {
       <div>
         <nav className="navbar navbar-expand-lg bg-light">
           <div className="container-fluid">
-            <a className="navbar-brand" href="/">
+            <Link className="navbar-brand" to="/">
               News Monkey
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -26,64 +27,45 @@ export class NavBar extends Component {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link" aria-current="page" href="/">
+                  <Link className="nav-link" aria-current="page" to="/">
                     Home
-                  </a>
-                </li>
-
-                <li className="nav-item dropdown">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    href="/"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Category
-                  </a>
-                  <ul className="dropdown-menu">
-                    <li>
-                      <a className="dropdown-item" href="/">
-                        Business
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="/">
-                        Entertainment
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="/">
-                        General
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="/">
-                        Health
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="/">
-                        Science
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="/">
-                        Sports
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="/">
-                        Technology
-                      </a>
-                    </li>
-                  </ul>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link" href="/about">
-                    About
-                  </a>
+                  <Link className="nav-link" to="/category/general">
+                    General
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/category/business">
+                    Business
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/category/entertainment">
+                    Entertainment
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/category/health">
+                    Health
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/category/science">
+                    Science
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/category/sports">
+                    Sports
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/category/technology">
+                    Technology
+                  </Link>
                 </li>
               </ul>
             </div>
