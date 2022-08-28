@@ -1,0 +1,59 @@
+{
+  "status": "ok",
+  "totalResults": 5,
+  "articles": [
+    {
+      "source": { "id": "news-com-au", "name": "News.com.au" },
+      "author": "Nic Savage",
+      "title": "Warner’s walk-off in ‘bizarre’ cricket drama",
+      "description": "<p>Australia has secured a comprehensive five-wicket victory over Zimbabwe in the first ODI at Riverway Stadium, with opener David Warner handed a reprieve following a &ldquo;bizarre&rdquo; sequence of events during the run chase.</p>",
+      "url": "https://www.news.com.au/sport/cricket/david-warner-embroiled-in-bizarre-drs-drama-during-season-opener-against-zimbabwe/news-story/3bdb32561cc4e0c0aacf388154ded8e5",
+      "urlToImage": "https://content.api.news/v3/images/bin/35b8e00463b8672042582b26404d7758",
+      "publishedAt": "2022-08-28T07:11:00Z",
+      "content": "Australia has secured a comprehensive five-wicket victory over Zimbabwe in the first ODI at Riverway Stadium, with opener David Warner handed a reprieve following a “bizarre” sequence of events durin… [+2984 chars]"
+    },
+    {
+      "source": { "id": "google-news-in", "name": "Google News (India)" },
+      "author": null,
+      "title": "Rs 5,000 Fine For India-Pak Match Watch Parties: Srinagar College Order",
+      "description": "The National Institute of Technology (NIT) here has asked its students not to watch Sunday's India-Pakistan Asia Cup cricket match in groups or post anything related to it on social media platforms.",
+      "url": "https://www.ndtv.com/india-news/dont-watch-india-pak-match-in-groups-srinagar-college-tells-students-3293435",
+      "urlToImage": "https://c.ndtvimg.com/2019-08/m014j6gg_nit-srinagar-facebook-650_625x300_04_August_19.jpg",
+      "publishedAt": "2022-08-28T06:53:00+00:00",
+      "content": "The students have also been directed to avoid posting any material related to the match on social media.\r\nSrinagar: The National Institute of Technology (NIT) in Srinagar has asked its students not t… [+1532 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Jennifer Hiller",
+      "title": "Disney Gets Deal to Broadcast Cricket Events in India",
+      "description": "The company has secured a deal to air four years of global cricket events to its subscribers in India, after losing broadcast rights earlier this year for a popular Indian cricket league.",
+      "url": "https://www.wsj.com/articles/disney-gets-deal-to-broadcast-cricket-events-in-india-11661640318?mod=hp_lead_pos10",
+      "urlToImage": "https://images.wsj.net/im-612070/social",
+      "publishedAt": "2022-08-27T22:45:00Z",
+      "content": "Walt Disney has secured a deal to air four years of global cricket events to its subscribers in India, after losing broadcast rights earlier this year for a popular Indian cricket league.\r\nDisney Sta… [+208 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+      "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+      "publishedAt": "2020-04-27T11:41:47Z",
+      "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+      "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+      "publishedAt": "2020-03-30T15:26:05Z",
+      "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+    }
+  ]
+}
