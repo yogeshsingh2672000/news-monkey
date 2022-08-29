@@ -76,7 +76,13 @@ export class News extends Component {
   render() {
     return (
       <div className="container my-3">
-        <h2 className="text-center">NewsMonkey - Top Headlines</h2>
+        <h2 className="text-center">
+          Top Headlines &rarr;
+          <span class="badge text-bg-warning">
+            {this.props.category.slice(0, 1).toUpperCase() +
+              this.props.category.slice(1)}
+          </span>{" "}
+        </h2>
         {this.state.loading && <Spinner />}
         <div className="row">
           {!this.state.loading &&
@@ -102,7 +108,7 @@ export class News extends Component {
           <button
             disabled={this.state.page <= 1}
             type="button"
-            className="btn btn-dark my-3"
+            className="btn btn-primary my-3"
             onClick={this.handlePrevClick}
           >
             &larr; Previous
@@ -110,7 +116,7 @@ export class News extends Component {
           <button
             disabled={this.state.page === this.state.maxPage}
             type="button"
-            className="btn btn-dark my-3"
+            className="btn btn-primary my-3"
             onClick={this.handleNextClick}
           >
             Next &rarr;

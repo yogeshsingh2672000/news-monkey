@@ -1,11 +1,13 @@
 import React, { Component } from "react";
-import spinner from "./spinner.gif";
 
 class Spinner extends Component {
   render() {
     return (
-      <div className="text-center">
-        <img src={spinner} alt="Loading" />
+      <div className="container text-center">
+        <div
+          className="spinner-border text-primary text-center"
+          role="status"
+        ></div>
       </div>
     );
   }

@@ -20,18 +20,6 @@ class App extends Component {
             />
             <Route
               exact
-              path="/category/general"
-              element={
-                <News
-                  key="general"
-                  pageSize={6}
-                  country="in"
-                  category="general"
-                />
-              }
-            />
-            <Route
-              exact
               path="/category/business"
               element={
                 <News
