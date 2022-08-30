@@ -14,4 +14,8 @@ Note: If you face some issue while installing the react-top-loading use the belo
 
 #### `npm install --save react-top-loading-bar -f`
 
+## Now start the project with
+
+### `npm start`
+
 ## Happy Coding
