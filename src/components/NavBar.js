@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export class NavBar extends Component {
   render() {
     return (
-      <div>
-        <nav className="navbar navbar-expand-lg bg-light">
+      <div style={{ marginTop: "80px" }}>
+        <nav className="navbar navbar-expand-lg bg-light fixed-top">
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">
               NewsMonkey
