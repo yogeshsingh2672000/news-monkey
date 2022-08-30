@@ -14,14 +14,18 @@ export class News extends Component {
     pageSize: PropTypes.number,
     category: PropTypes.string,
   };
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       articles: [],
       loading: false,
       page: 1,
       maxPage: 0,
     };
+    document.title = `NewsMonkey | ${
+      this.props.category.slice(0, 1).toUpperCase() +
+      this.props.category.slice(1)
+    }`;
   }
 
   async updateNews() {
