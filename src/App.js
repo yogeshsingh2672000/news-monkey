@@ -6,6 +6,7 @@ import News from "./components/News";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 class App extends Component {
+  pageSize = 16;
   render() {
     return (
       <div>
@@ -16,7 +17,13 @@ class App extends Component {
             <Route
               exact
               path="/"
-              element={<News pageSize={6} country="in" category="general" />}
+              element={
+                <News
+                  pageSize={this.pageSize}
+                  country="in"
+                  category="general"
+                />
+              }
             />
             <Route
               exact
@@ -24,7 +31,7 @@ class App extends Component {
               element={
                 <News
                   key="business"
-                  pageSize={6}
+                  pageSize={this.pageSize}
                   country="in"
                   category="business"
                 />
@@ -36,7 +43,7 @@ class App extends Component {
               element={
                 <News
                   key="entertainment"
-                  pageSize={6}
+                  pageSize={this.pageSize}
                   country="in"
                   category="entertainment"
                 />
@@ -48,7 +55,7 @@ class App extends Component {
               element={
                 <News
                   key="health"
-                  pageSize={6}
+                  pageSize={this.pageSize}
                   country="in"
                   category="health"
                 />
@@ -60,7 +67,7 @@ class App extends Component {
               element={
                 <News
                   key="science"
-                  pageSize={6}
+                  pageSize={this.pageSize}
                   country="in"
                   category="science"
                 />
@@ -72,7 +79,7 @@ class App extends Component {
               element={
                 <News
                   key="sports"
-                  pageSize={6}
+                  pageSize={this.pageSize}
                   country="in"
                   category="sports"
                 />
@@ -84,7 +91,7 @@ class App extends Component {
               element={
                 <News
                   key="technology"
-                  pageSize={6}
+                  pageSize={this.pageSize}
                   country="in"
                   category="technology"
                 />
